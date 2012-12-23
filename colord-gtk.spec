@@ -1,11 +1,11 @@
 Summary:	GTK helper library for colord
 Name:		colord-gtk
-Version:	0.1.23
+Version:	0.1.24
 Release:	1
 License:	GPL v2+ and LGPL v2+
 Group:		Libraries
 Source0:	http://www.freedesktop.org/software/colord/releases/%{name}-%{version}.tar.xz
-# Source0-md5:	019fa6f9349ef39d1bd28c3dcf6fb191
+# Source0-md5:	c2c63d7da6e9d512cc95c676661e35f0
 URL:		http://www.freedesktop.org/software/colord/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -52,8 +52,8 @@ colord-gtk API documentation.
 %configure \
 	--disable-silent-rules	\
 	--disable-static	\
+	--enable-vala		\
 	--with-html-dir=%{_gtkdocdir}
-
 %{__make}
 
 %install
