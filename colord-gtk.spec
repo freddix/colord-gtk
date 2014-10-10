@@ -1,7 +1,7 @@
 Summary:	GTK helper library for colord
 Name:		colord-gtk
 Version:	0.1.25
-Release:	2
+Release:	4
 License:	GPL v2+ and LGPL v2+
 Group:		Libraries
 Source0:	http://www.freedesktop.org/software/colord/releases/%{name}-%{version}.tar.xz
